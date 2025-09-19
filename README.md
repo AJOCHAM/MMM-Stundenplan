@@ -43,7 +43,7 @@ npm install ical
 
 ---
 
-/* Beispiel-Konfiguration für config/config.js */
+## Beispiel-Konfiguration für config/config.js 
 ```
 {
       module: "MMM-Stundenplan",
@@ -68,27 +68,18 @@ npm install ical
         Dienstag: [
           { zeit: "07:50", fach: "Englisch", raum: "" },
           { zeit: "08:35", fach: "Englisch", raum: "" },
-          { zeit: "09:35", fach: "Sport", raum: "" },
-          { zeit: "10:20", fach: "Sport", raum: "" },
-          { zeit: "11:20", fach: "Mathe", raum: ""},
-          { zeit: "12:05", fach: "NuT", raum: "142" }
+          { zeit: "09:35", fach: "Sport", raum: "" }
         ],
         Mittwoch: [
           { zeit: "07:50", fach: "Deutsch", raum: "" },
           { zeit: "08:35", fach: "Deutsch", raum: "" },
-          { zeit: "09:35", fach: "Sport", raum: "" },
-          { zeit: "10:20", fach: "Sport", raum: "" },
-          { zeit: "11:20", fach: "NuT", raum: ""},
-          { zeit: "12:05", fach: "Mathe", raum: "" }
+          { zeit: "09:35", fach: "Sport", raum: "" }
         ],
         Donnerstag: [
           { zeit: "07:50", fach: "Deutsch", raum: "" },
           { zeit: "08:35", fach: "Reli", raum: "003" },
           { zeit: "09:35", fach: "Mathe", raum: "" },
-          { zeit: "10:20", fach: "Deutsch", raum: "" },
-          { zeit: "11:20", fach: "Englisch", raum: ""},
-          { zeit: "12:05", fach: "Geo", raum: "" },
-          { zeit: "13:35", fach: "Englisch", raum: "" }
+          { zeit: "10:20", fach: "Deutsch", raum: "" }
         ],
         Freitag: [
           { zeit: "07:50", fach: "Mathe", raum: "" },
@@ -148,8 +139,7 @@ npm install ical
           ]
         }
         }
-```
-
       ]     
       }
     },  
+```
