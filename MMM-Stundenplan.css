@@ -1,0 +1,57 @@
+.stundenplan-wrapper {
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+}
+
+.day-wrapper {
+  margin-bottom: 20px;
+}
+
+.day-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stundenplan-table {
+  border-collapse: collapse;
+  width: 100%;
+  border-color: #000;
+}
+
+.stundenplan-table th {
+  border-bottom: 1px solid #666;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+.zeit-cell {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-right: 1px solid #000;
+  font-size: 0.6em;
+}
+
+.raum {
+  font-size: 0.6em;
+}
+
+.stunde-box {
+  border: 1px solid;
+  padding: 4px;
+  text-align: center;
+  min-width: 80px;
+}
+
+.keine-stunden {
+  text-align: center;
+  padding: 10px;
+  color: #aaa;
+}
+
+.ferien-box {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px;
+  color: yellow;
+}
