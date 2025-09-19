@@ -44,7 +44,7 @@ npm install ical
 ---
 
 /* Beispiel-Konfiguration für config/config.js */
-
+```
 {
       module: "MMM-Stundenplan",
       position: "top_right",
@@ -148,6 +148,8 @@ npm install ical
           ]
         }
         }
+```
+
       ]     
       }
     },  
