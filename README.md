@@ -1,5 +1,5 @@
 
-# MMM-Stundenplan
+# MMM-Stundenplan (Deutsch)
 
 
 Ein einfaches Stundenplan-Modul für MagicMirror. Konfiguration ausschließlich über `config.js`. Unterstützt iCal-Ferienkalender, mehrere Kinder, Farben, Zeiten und Räume.
@@ -7,7 +7,7 @@ Ein einfaches Stundenplan-Modul für MagicMirror. Konfiguration ausschließlich 
 Wichtig: Für die iCal-Integration wird das Node-Package `ical` benötigt (npm install ical im Modulordner).
 
 
-## Kurzanleitung (Deutsch)
+## Kurzanleitung
 
 1. Ordne den Ordner `MMM-Stundenplan` in `~/MagicMirror/modules/` ein.
 2. Installiere optionale Node-Abhängigkeiten (für iCal-Fetch):
@@ -15,6 +15,7 @@ Wichtig: Für die iCal-Integration wird das Node-Package `ical` benötigt (npm i
 ```bash
 cd ~/MagicMirror/modules/MMM-Stundenplan
 npm install ical
+npm install node-fetch@2
 ```
 
 3. Füge in deiner `config/config.js` folgenden Beispiel-Block in `modules: [...]` ein (siehe Datei `config-sample.js` weiter unten).
@@ -31,19 +32,38 @@ npm install ical
 - Pro Kind eigene Anzeige-Farbe (Hintergrund/Accent)
 - Vollständig konfigurierbar über `config.js`
 
+--------------
+
+# MMM-Timetable (English)
+
+A simple timetable module for MagicMirror. Configuration is done entirely via config.js. Supports iCal holiday calendars, multiple children, colors, times, and rooms.
+
+Important: For iCal integration, the Node package ical is required (install with npm install ical inside the module folder).
+
+## Quick Guide
+1. Place the folder MMM-Timetable in ~/MagicMirror/modules/.
+2. Install optional Node dependencies (for iCal fetching):
+
+```bash
+cd ~/MagicMirror/modules/MMM-Stundenplan
+npm install ical
+npm install node-fetch@2
+```
+
+3. Add the following example block to the modules: [...] section in your config/config.js file (see config-sample.js example below).
+4. Restart MagicMirror.
+
+## What the module can do
+- Store multiple children/profiles (name, color, timetable)
+- Display a configurable number of days (e.g., 3, 5, 7)
+- Integrate a public iCal calendar (e.g., holiday calendar) — during holidays, the day will simply show “HOLIDAYS”
+- Specify time and room for each lesson entry
+- Assign individual display colors per child (background/accent)
+- Fully configurable via config.js
+
 ---
 
-## Dateien in diesem Dokument
-
-- `MMM-Stundenplan.js` — Hauptmodul (Front-end)
-- `node_helper.js` — Node-Helper zum Laden und Parsen von iCal (Ferien)
-- `MMM-Stundenplan.css` — Styles
-- `config-sample.js` — Beispiel, wie die `config.js` aussehen sollte
-- `README.md` — kurze Hinweise
-
----
-
-## Beispiel-Konfiguration für config/config.js 
+##  config/config.js 
 ```
 {
       module: "MMM-Stundenplan",
