@@ -1,0 +1,20 @@
+{
+  "name": "mmm-stundenplan",
+  "version": "1.0.0",
+  "description": "Ein einfaches Stundenplan-Modul für MagicMirror. Konfiguration ausschließlich über `config.js`. Unterstützt iCal-Ferienkalender, mehrere Kinder, Farben, Zeiten und Räume.",
+  "main": "MMM-Stundenplan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJOCHAM/MMM-Stundenplan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJOCHAM/MMM-Stundenplan/issues"
+  },
+  "homepage": "https://github.com/AJOCHAM/MMM-Stundenplan#readme"
+}
